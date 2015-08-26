@@ -13,3 +13,4 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 gem 'devise', '~> 3.5.2'
 gem 'bootstrap-sass'
+gem 'acts_as_votable', '~> 0.10.0'
