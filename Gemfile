@@ -15,3 +15,8 @@ gem 'devise', '~> 3.5.2'
 gem 'bootstrap-sass'
 gem 'acts_as_votable', '~> 0.10.0'
 gem 'simple_form', '~> 3.1.0'
+
+group :production do
+	gem 'pg'
+	gem 'rails_12factor'
+end
